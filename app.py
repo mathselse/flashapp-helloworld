@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return "Hello girl!"
+  return "Hello world!"
 
 @app.route('/<page>')
 def default(page):
